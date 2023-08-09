@@ -65,6 +65,8 @@ section {
     color: var(--black);
     cursor: pointer;
     background: none;
+    transition: all 0.5s ease;
+
 }
 
 .btn:hover {
@@ -317,7 +319,7 @@ section{
     padding-top: 17rem;
     padding-bottom: 10rem;
     position: relative;
-    top: 8rem;
+    top: 10rem;
 }
 
 .home .content {
@@ -340,11 +342,16 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
 }
+.features{
+    position: relative;
+    top: 9rem;
+}
 
 .features .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+    margin-top: 2rem;
 
 }
 
@@ -381,7 +388,23 @@ section{
     color: var(--light-color);
     padding: 1rem 0;
 }
+.features .box-container .box .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    transition: all 0.5s ease;
+}
 
+.features .box-container .box .btn:hover {
+    background: var(--orange);
+    color: #fff;
+}
 
 
 
