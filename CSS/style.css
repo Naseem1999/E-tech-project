@@ -242,7 +242,10 @@ height: 10rem;
     color: var(--orange);
     text-decoration: underline;
 }
-
+.carousel{
+    position: absolute ;
+    top: 8rem;
+}
 
 
 
