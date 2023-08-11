@@ -82,10 +82,14 @@ section{
 .header .logo i{
     color: var(--orange);
 }
+.header a{
+    text-decoration: none;
+}
 .header .navbar a{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
+    text-decoration: none;
 }
 .header .navbar a:hover{
     color: var(--orange);
@@ -244,11 +248,15 @@ height: 10rem;
 }
 
 /* ###################section################### */
+main, .footer{
+    position: relative;
+    top: 8rem;
+}
 .home{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../IMAGE/banner-bg.webp) no-repeat;
+    background: url(../assets/home-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
@@ -481,6 +489,7 @@ outline-offset: 0rem;
 
 .footer{
     background: #fff;
+    padding: 2rem 9%;
 }
 .footer .box-container{
     display: grid;
@@ -583,6 +592,9 @@ outline-offset: 0rem;
         padding: 2rem;
     }
     section{
+        padding: 2rem ;
+    }
+    footer{
         padding: 2rem ;
     }
 }
