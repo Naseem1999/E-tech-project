@@ -256,7 +256,7 @@ main, .footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/home-bg.jpg) no-repeat;
+    background: url(../assets/IMAGE/home-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
